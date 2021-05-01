@@ -7,7 +7,26 @@
 <script src="./p5.play.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
 
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBF_rre0gg4BT3U7cu8rhX0n-v_4Aq0f3A",
+    authDomain: "syncball-d2c62.firebaseapp.com",
+    databaseURL: "https://syncball-d2c62-default-rtdb.firebaseio.com",
+    projectId: "syncball-d2c62",
+    storageBucket: "syncball-d2c62.appspot.com",
+    messagingSenderId: "615360870535",
+    appId: "1:615360870535:web:ee94873c2a7df5da69e022"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
   </head>
   <body>
       <script src="sketch.js"></script>
